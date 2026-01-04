@@ -7,7 +7,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: none
-    show-sql: false
+    show-sql: true
     properties:
       hibernate:
         format_sql: true
@@ -16,11 +16,11 @@ spring:
       api-key: sk-1234567890
 
 db:
-   host: ${DB_HOST:localhost}
-   port: ${DB_PORT:3306}
-   name: ${DB_NAME:himarket}
-   username: ${DB_USERNAME:root}
-   password: ${DB_PASSWORD:12345678}
+  host: ${DB_HOST:localhost}
+  port: ${DB_PORT:3306}
+  name: ${DB_NAME:himarket}
+  username: ${DB_USERNAME:root}
+  password: ${DB_PASSWORD:2am9h20}
 
 # Encryptor
 encryption:
